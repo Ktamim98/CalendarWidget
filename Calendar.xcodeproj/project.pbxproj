@@ -19,7 +19,6 @@
 		3F2A51EA2A5D6EB3002D5B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A51E92A5D6EB3002D5B69 /* Assets.xcassets */; };
 		3F2A51EC2A5D6EB3002D5B69 /* CalendarWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A51E82A5D6EB2002D5B69 /* CalendarWidget.intentdefinition */; };
 		3F2A51ED2A5D6EB3002D5B69 /* CalendarWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A51E82A5D6EB2002D5B69 /* CalendarWidget.intentdefinition */; };
-		3F2A51F02A5D6EB3002D5B69 /* CalendarWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3F2A51DB2A5D6EB1002D5B69 /* CalendarWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3F2A51F92A5DB935002D5B69 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A51F72A5DB935002D5B69 /* OFL.txt */; };
 		3F2A51FA2A5DB935002D5B69 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A51F72A5DB935002D5B69 /* OFL.txt */; };
 		3F2A51FB2A5DB935002D5B69 /* JacquesFrancoisShadow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A51F82A5DB935002D5B69 /* JacquesFrancoisShadow-Regular.ttf */; };
@@ -38,10 +37,31 @@
 		3F2A52512A5DC8F1002D5B69 /* SairaSemiCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A52422A5DC8F1002D5B69 /* SairaSemiCondensed-Regular.ttf */; };
 		3F2A525F2A5DCACD002D5B69 /* BacasimeAntique-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A525D2A5DCACD002D5B69 /* BacasimeAntique-Regular.ttf */; };
 		3F2A52602A5DCACE002D5B69 /* BacasimeAntique-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A525D2A5DCACD002D5B69 /* BacasimeAntique-Regular.ttf */; };
+		3F2A52642A5DDE53002D5B69 /* VectorPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A52632A5DDE53002D5B69 /* VectorPosition.swift */; };
+		3F2A52652A5DDE53002D5B69 /* VectorPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A52632A5DDE53002D5B69 /* VectorPosition.swift */; };
+		3F2A52672A5DE024002D5B69 /* GreenDotPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A52662A5DE024002D5B69 /* GreenDotPosition.swift */; };
+		3F2A52682A5DE024002D5B69 /* GreenDotPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A52662A5DE024002D5B69 /* GreenDotPosition.swift */; };
+		3F2A526A2A5DE059002D5B69 /* BlackDotPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A52692A5DE059002D5B69 /* BlackDotPosition.swift */; };
+		3F2A526B2A5DE059002D5B69 /* BlackDotPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A52692A5DE059002D5B69 /* BlackDotPosition.swift */; };
+		3F2A52752A5DE5B3002D5B69 /* MonthEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A52742A5DE5B3002D5B69 /* MonthEntry.swift */; };
+		3F2A52762A5DE5B3002D5B69 /* MonthEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A52742A5DE5B3002D5B69 /* MonthEntry.swift */; };
+		3F2A529B2A5EB86D002D5B69 /* IrishGrover-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A52992A5EB86D002D5B69 /* IrishGrover-Regular.ttf */; };
+		3F2A529C2A5EB86D002D5B69 /* IrishGrover-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A52992A5EB86D002D5B69 /* IrishGrover-Regular.ttf */; };
+		3F2A529D2A5EB86D002D5B69 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A529A2A5EB86D002D5B69 /* LICENSE.txt */; };
+		3F2A529E2A5EB86D002D5B69 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A529A2A5EB86D002D5B69 /* LICENSE.txt */; };
+		3F2A52A22A5EEF45002D5B69 /* CalendarWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3F2A51DB2A5D6EB1002D5B69 /* CalendarWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3FA339EC2A5F0A0B00570283 /* CustomCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA339E52A5EF19800570283 /* CustomCalendar.swift */; };
+		3FA339ED2A5F0A1000570283 /* ContenttView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA339E72A5EF50A00570283 /* ContenttView.swift */; };
+		3FA339EE2A5F0A1400570283 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA339E92A5EF99400570283 /* DateValue.swift */; };
+		3FA339EF2A5F0AF800570283 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA339E32A5EF14D00570283 /* CalendarView.swift */; };
+		3FA339F02A5F0B0100570283 /* CustomCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA339E52A5EF19800570283 /* CustomCalendar.swift */; };
+		3FA339F12A5F0B0500570283 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA339E32A5EF14D00570283 /* CalendarView.swift */; };
+		3FA339F22A5F0B0900570283 /* ContenttView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA339E72A5EF50A00570283 /* ContenttView.swift */; };
+		3FA339F32A5F0B0C00570283 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA339E92A5EF99400570283 /* DateValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3F2A51EE2A5D6EB3002D5B69 /* PBXContainerItemProxy */ = {
+		3F2A52A32A5EEF45002D5B69 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3F2A51BE2A5D6E64002D5B69 /* Project object */;
 			proxyType = 1;
@@ -51,13 +71,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3F2A51F42A5D6EB4002D5B69 /* Embed Foundation Extensions */ = {
+		3F2A52A52A5EEF45002D5B69 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				3F2A51F02A5D6EB3002D5B69 /* CalendarWidgetExtension.appex in Embed Foundation Extensions */,
+				3F2A52A22A5EEF45002D5B69 /* CalendarWidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,6 +108,16 @@
 		3F2A52352A5DC666002D5B69 /* Salsa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Salsa-Regular.ttf"; sourceTree = "<group>"; };
 		3F2A52422A5DC8F1002D5B69 /* SairaSemiCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SairaSemiCondensed-Regular.ttf"; sourceTree = "<group>"; };
 		3F2A525D2A5DCACD002D5B69 /* BacasimeAntique-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BacasimeAntique-Regular.ttf"; sourceTree = "<group>"; };
+		3F2A52632A5DDE53002D5B69 /* VectorPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorPosition.swift; sourceTree = "<group>"; };
+		3F2A52662A5DE024002D5B69 /* GreenDotPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenDotPosition.swift; sourceTree = "<group>"; };
+		3F2A52692A5DE059002D5B69 /* BlackDotPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackDotPosition.swift; sourceTree = "<group>"; };
+		3F2A52742A5DE5B3002D5B69 /* MonthEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthEntry.swift; sourceTree = "<group>"; };
+		3F2A52992A5EB86D002D5B69 /* IrishGrover-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IrishGrover-Regular.ttf"; sourceTree = "<group>"; };
+		3F2A529A2A5EB86D002D5B69 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		3FA339E32A5EF14D00570283 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		3FA339E52A5EF19800570283 /* CustomCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalendar.swift; sourceTree = "<group>"; };
+		3FA339E72A5EF50A00570283 /* ContenttView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenttView.swift; sourceTree = "<group>"; };
+		3FA339E92A5EF99400570283 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +190,9 @@
 		3F2A51E12A5D6EB1002D5B69 /* CalendarWidget */ = {
 			isa = PBXGroup;
 			children = (
-				3F2A51F52A5DB8F9002D5B69 /* Font */,
+				3FA339F42A5F122800570283 /* Extension */,
+				3F2A526D2A5DE200002D5B69 /* Model */,
+				3F2A526C2A5DE1F7002D5B69 /* Core */,
 				3F2A51E22A5D6EB1002D5B69 /* CalendarWidgetBundle.swift */,
 				3F2A51E42A5D6EB1002D5B69 /* CalendarWidgetLiveActivity.swift */,
 				3F2A51E62A5D6EB1002D5B69 /* CalendarWidget.swift */,
@@ -174,6 +206,7 @@
 		3F2A51F52A5DB8F9002D5B69 /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				3F2A52982A5EB86D002D5B69 /* Irish_Grover */,
 				3F2A520A2A5DBEBA002D5B69 /* Arial Rounded MT Bold */,
 				3F2A52342A5DC666002D5B69 /* salsa */,
 				3F2A523D2A5DC8F1002D5B69 /* Saira_Semi_Condensed */,
@@ -235,6 +268,77 @@
 			path = Bacasime_Antique;
 			sourceTree = "<group>";
 		};
+		3F2A526C2A5DE1F7002D5B69 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3F2A526E2A5DE21B002D5B69 /* Components */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3F2A526D2A5DE200002D5B69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F2A52742A5DE5B3002D5B69 /* MonthEntry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F2A526E2A5DE21B002D5B69 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3F2A52702A5DE2E1002D5B69 /* Vector */,
+				3F2A51F52A5DB8F9002D5B69 /* Font */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3F2A52702A5DE2E1002D5B69 /* Vector */ = {
+			isa = PBXGroup;
+			children = (
+				3F2A52632A5DDE53002D5B69 /* VectorPosition.swift */,
+				3F2A52662A5DE024002D5B69 /* GreenDotPosition.swift */,
+				3F2A52692A5DE059002D5B69 /* BlackDotPosition.swift */,
+			);
+			path = Vector;
+			sourceTree = "<group>";
+		};
+		3F2A52982A5EB86D002D5B69 /* Irish_Grover */ = {
+			isa = PBXGroup;
+			children = (
+				3F2A52992A5EB86D002D5B69 /* IrishGrover-Regular.ttf */,
+				3F2A529A2A5EB86D002D5B69 /* LICENSE.txt */,
+			);
+			path = Irish_Grover;
+			sourceTree = "<group>";
+		};
+		3FA339F42A5F122800570283 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3FA339F62A5F123600570283 /* View */,
+				3FA339F52A5F123400570283 /* ViewModel */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3FA339F52A5F123400570283 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3FA339E92A5EF99400570283 /* DateValue.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3FA339F62A5F123600570283 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FA339E32A5EF14D00570283 /* CalendarView.swift */,
+				3FA339E52A5EF19800570283 /* CustomCalendar.swift */,
+				3FA339E72A5EF50A00570283 /* ContenttView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -245,14 +349,16 @@
 				3F2A51C22A5D6E64002D5B69 /* Sources */,
 				3F2A51C32A5D6E64002D5B69 /* Frameworks */,
 				3F2A51C42A5D6E64002D5B69 /* Resources */,
-				3F2A51F42A5D6EB4002D5B69 /* Embed Foundation Extensions */,
+				3F2A52A52A5EEF45002D5B69 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3F2A51EF2A5D6EB3002D5B69 /* PBXTargetDependency */,
+				3F2A52A42A5EEF45002D5B69 /* PBXTargetDependency */,
 			);
 			name = Calendar;
+			packageProductDependencies = (
+			);
 			productName = Calendar;
 			productReference = 3F2A51C62A5D6E64002D5B69 /* Calendar.app */;
 			productType = "com.apple.product-type.application";
@@ -270,6 +376,8 @@
 			dependencies = (
 			);
 			name = CalendarWidgetExtension;
+			packageProductDependencies = (
+			);
 			productName = CalendarWidgetExtension;
 			productReference = 3F2A51DB2A5D6EB1002D5B69 /* CalendarWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -301,6 +409,8 @@
 				Base,
 			);
 			mainGroup = 3F2A51BD2A5D6E64002D5B69;
+			packageReferences = (
+			);
 			productRefGroup = 3F2A51C72A5D6E64002D5B69 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -321,11 +431,13 @@
 				3F2A525F2A5DCACD002D5B69 /* BacasimeAntique-Regular.ttf in Resources */,
 				3F2A523C2A5DC710002D5B69 /* Salsa-Regular.ttf in Resources */,
 				3F2A52082A5DBEB0002D5B69 /* sharefonts.net.txt in Resources */,
+				3F2A529D2A5EB86D002D5B69 /* LICENSE.txt in Resources */,
 				3F2A52502A5DC8F1002D5B69 /* SairaSemiCondensed-Regular.ttf in Resources */,
 				3F2A52062A5DBEB0002D5B69 /* jsmathcmbx10.png in Resources */,
 				3F2A51FB2A5DB935002D5B69 /* JacquesFrancoisShadow-Regular.ttf in Resources */,
 				3F2A51FE2A5DBBD8002D5B69 /* arlrdbd.ttf in Resources */,
 				3F2A51D12A5D6E65002D5B69 /* Preview Assets.xcassets in Resources */,
+				3F2A529B2A5EB86D002D5B69 /* IrishGrover-Regular.ttf in Resources */,
 				3F2A51CE2A5D6E65002D5B69 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +446,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F2A529E2A5EB86D002D5B69 /* LICENSE.txt in Resources */,
 				3F2A52602A5DCACE002D5B69 /* BacasimeAntique-Regular.ttf in Resources */,
 				3F2A52382A5DC666002D5B69 /* Salsa-Regular.ttf in Resources */,
 				3F2A52092A5DBEB0002D5B69 /* sharefonts.net.txt in Resources */,
@@ -344,6 +457,7 @@
 				3F2A52072A5DBEB0002D5B69 /* jsmathcmbx10.png in Resources */,
 				3F2A52052A5DBEB0002D5B69 /* jsMath-cmbx10.ttf in Resources */,
 				3F2A51FC2A5DB935002D5B69 /* JacquesFrancoisShadow-Regular.ttf in Resources */,
+				3F2A529C2A5EB86D002D5B69 /* IrishGrover-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +470,15 @@
 			files = (
 				3F2A51CC2A5D6E64002D5B69 /* ContentView.swift in Sources */,
 				3F2A51ED2A5D6EB3002D5B69 /* CalendarWidget.intentdefinition in Sources */,
+				3FA339F32A5F0B0C00570283 /* DateValue.swift in Sources */,
+				3FA339EF2A5F0AF800570283 /* CalendarView.swift in Sources */,
+				3FA339F22A5F0B0900570283 /* ContenttView.swift in Sources */,
+				3F2A526A2A5DE059002D5B69 /* BlackDotPosition.swift in Sources */,
 				3F2A51CA2A5D6E64002D5B69 /* CalendarApp.swift in Sources */,
+				3FA339F02A5F0B0100570283 /* CustomCalendar.swift in Sources */,
+				3F2A52672A5DE024002D5B69 /* GreenDotPosition.swift in Sources */,
+				3F2A52642A5DDE53002D5B69 /* VectorPosition.swift in Sources */,
+				3F2A52752A5DE5B3002D5B69 /* MonthEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +488,15 @@
 			files = (
 				3F2A51E52A5D6EB1002D5B69 /* CalendarWidgetLiveActivity.swift in Sources */,
 				3F2A51E32A5D6EB1002D5B69 /* CalendarWidgetBundle.swift in Sources */,
+				3FA339F12A5F0B0500570283 /* CalendarView.swift in Sources */,
+				3F2A52682A5DE024002D5B69 /* GreenDotPosition.swift in Sources */,
+				3F2A52762A5DE5B3002D5B69 /* MonthEntry.swift in Sources */,
+				3FA339EC2A5F0A0B00570283 /* CustomCalendar.swift in Sources */,
+				3F2A52652A5DDE53002D5B69 /* VectorPosition.swift in Sources */,
 				3F2A51EC2A5D6EB3002D5B69 /* CalendarWidget.intentdefinition in Sources */,
+				3F2A526B2A5DE059002D5B69 /* BlackDotPosition.swift in Sources */,
+				3FA339EE2A5F0A1400570283 /* DateValue.swift in Sources */,
+				3FA339ED2A5F0A1000570283 /* ContenttView.swift in Sources */,
 				3F2A51E72A5D6EB1002D5B69 /* CalendarWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,10 +504,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3F2A51EF2A5D6EB3002D5B69 /* PBXTargetDependency */ = {
+		3F2A52A42A5EEF45002D5B69 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3F2A51DA2A5D6EB1002D5B69 /* CalendarWidgetExtension */;
-			targetProxy = 3F2A51EE2A5D6EB3002D5B69 /* PBXContainerItemProxy */;
+			targetProxy = 3F2A52A32A5EEF45002D5B69 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -499,7 +629,6 @@
 		3F2A51D52A5D6E65002D5B69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,7 +657,6 @@
 		3F2A51D62A5D6E65002D5B69 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
