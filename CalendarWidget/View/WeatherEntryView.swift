@@ -1,8 +1,8 @@
 //
-//  CalendarWidget.swift
-//  CalendarWidget
+//  WeatherEntryView.swift
+//  WeatherWidgetExtension
 //
-//  Created by Tamim Khan on 11/7/23.
+//  Created by Tamim Khan on 13/7/23.
 //
 
 import WidgetKit
@@ -10,36 +10,12 @@ import SwiftUI
 import Intents
 
 
-struct Provider: IntentTimelineProvider {
-    func placeholder(in context: Context) -> MonthEntry {
-        MonthEntry(date: Date(), configuration: ConfigurationIntent())
-       
-    }
 
-    func getSnapshot(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (MonthEntry) -> ()) {
-        let entry = MonthEntry(date: Date(), configuration: configuration)
-        completion(entry)
-    }
-
-    func getTimeline(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
-        var entries: [MonthEntry] = []
-
-        let currentDate = Date()
-        for dateOffset in 0 ..< 30 {
-            let entryDate = Calendar.current.date(byAdding: .month, value: dateOffset, to: currentDate)!
-            let entry = MonthEntry(date: entryDate, configuration: configuration)
-            entries.append(entry)
-        }
-
-        let timeline = Timeline(entries: entries, policy: .atEnd)
-        completion(timeline)
-    }
-}
-
-
-
-struct CalendarWidgetEntryView: View {
-    var entry: Provider.Entry
+struct WeatherEntryView: View {
+   
+    
+    let entry: WeatherEntry
+  
     
    
    
@@ -82,48 +58,46 @@ struct CalendarWidgetEntryView: View {
         return dateFormatter.string(from: entry.date)
     }
     
-}
-
-struct CalendarWidget: Widget {
-    let kind: String = "CalendarWidget"
-
-    var body: some WidgetConfiguration {
-        IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: Provider()) { entry in
-            CalendarWidgetEntryView(entry: entry)
+    func getWeatherIcon(conditionString: String) -> String{
+        let current = conditionString.lowercased()
+        
+        switch current{
+        case _ where current.contains("partly sunny"):
+            return "🌥"
+        case _ where current.contains("cloudy"):
+            return "☁️"
+        case _ where current.contains("drizzle"):
+            return "🌧"
+        case _ where current.contains("sunny"):
+            return "☀️"
+        case _ where current.contains("clear"):
+            return "🌤"
+        default:
+            return "🚫"
         }
-        .configurationDisplayName("My Widget")
-        .description("This is an example widget.")
-        .supportedFamilies([.systemLarge])
     }
-}
-
-struct CalendarWidget_Previews: PreviewProvider {
-    static var previews: some View {
-        CalendarWidgetEntryView(entry: MonthEntry(date: Date(), configuration: ConfigurationIntent()))
-            .previewContext(WidgetPreviewContext(family: .systemLarge))
-           
-    }
+    
 }
 
 
 
-extension CalendarWidgetEntryView{
+
+extension WeatherEntryView{
     
     private var headerView: some View{
         VStack(alignment: .leading, spacing: 4){
             HStack{
-                Image("Group 1")
-                    .scaledToFit()
+                Text(getWeatherIcon(conditionString: entry.weather.description))
                     .frame(width: 22.19388, height: 15.53571)
                 
-                Text("Cloudy")
+                Text(entry.weather.description)
                   .font(Font.custom("Jacques Francois Shadow", size: 16.27551))
                   .foregroundColor(.black)
             }
             .padding(.top)
             
             
-            Text("19.2°")
+            Text("\(entry.weather.temperature)°\(entry.weather.unit)")
               .font(Font.custom("Arial Rounded MT Bold", size: 40.58817))
               .offset(x: 5)
               .multilineTextAlignment(.center)
@@ -164,6 +138,7 @@ extension CalendarWidgetEntryView{
           
            
             CalendarView()
+            
                 
                 
         }
