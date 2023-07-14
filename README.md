@@ -3,6 +3,10 @@ CalendarWidget is an iOS application widget (system large) that provides weather
 
 ## Screenshots
 
+<img width="370" alt="Screenshot 2023-07-14 at 10 40 47 PM" src="https://github.com/Ktamim98/CalendarWidget/assets/124142522/90c15efe-07c2-4104-9c54-66b64a4643ca">
+<img width="293" alt="Screenshot 2023-07-14 at 10 41 11 PM" src="https://github.com/Ktamim98/CalendarWidget/assets/124142522/171f2f1b-e1c8-4732-ab01-2c4d121e9583">
+
+
 
 ## Functionality
 - Real-Time Custom Design Calendar: CalendarWidget displays the current month, day, and date in a visually appealing and customized format.
